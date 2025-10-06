@@ -13,6 +13,10 @@
       margin-bottom: 50px;
       color: #333;
     }
+    h2 {
+      margin-bottom: 50px;
+      color: #333;
+    }
     .canvas {
       display: flex;
       gap: 15px;
