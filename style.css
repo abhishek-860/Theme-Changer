@@ -1,1 +1,47 @@
-
+      body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: white;
+      transition: background-color 0.4s ease;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      margin-bottom: 50px;
+      color: #333;
+    }
+    .canvas {
+      display: flex;
+      gap: 15px;
+    }
+    .buttons {
+      width: 60px;
+      height: 60px;
+      border-radius: 10%;
+      display: grid;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #414141;
+      cursor: pointer;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s;
+    }
+    .buttons:hover {
+      transform: scale(1.1);
+    }
+    #gray{
+      background-color: gray;
+    }
+    #green{
+      background-color: green;
+    }
+    #blue{
+      background-color: blue;
+    }
+    #yellow{
+      background-color: yellow;
+    }
